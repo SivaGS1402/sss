@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51180" started-at="2024-02-10T01:24:42Z" finished-at="2024-02-10T01:25:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51180" started-at="2024-02-10T01:24:42Z" finished-at="2024-02-10T01:25:33Z">
+      <class name="com.Runner.OrangeHRM_myinfo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Runner.OrangeHRM_myinfo@402a079c]" name="setUp" is-config="true" duration-ms="8454" started-at="2024-02-10T01:24:42Z" finished-at="2024-02-10T01:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="orangeHRM_Login()[pri:0, instance:com.Runner.OrangeHRM_myinfo@402a079c]" name="orangeHRM_Login" duration-ms="11773" started-at="2024-02-10T01:24:51Z" finished-at="2024-02-10T01:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRM_Login -->
+        <test-method status="PASS" signature="myInfo_Page()[pri:0, instance:com.Runner.OrangeHRM_myinfo@402a079c]" name="myInfo_Page" duration-ms="27407" started-at="2024-02-10T01:25:02Z" depends-on-methods="com.Runner.OrangeHRM_myinfo.orangeHRM_Login" finished-at="2024-02-10T01:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myInfo_Page -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.Runner.OrangeHRM_myinfo@402a079c]" name="logOut" duration-ms="2346" started-at="2024-02-10T01:25:30Z" depends-on-methods="com.Runner.OrangeHRM_myinfo.myInfo_Page" finished-at="2024-02-10T01:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Runner.OrangeHRM_myinfo@402a079c]" name="tearDown" is-config="true" duration-ms="1151" started-at="2024-02-10T01:25:32Z" finished-at="2024-02-10T01:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Runner.OrangeHRM_myinfo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

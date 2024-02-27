@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="Test Suite">
+<test name  =  "Test case">
+<classes>
+<class name="com.sample_TestNG.Dependencies_Management"></class>
+<class name="com.sample_TestNG.Priority_Test"></class>
+</classes>
+</test>
+</suite>
